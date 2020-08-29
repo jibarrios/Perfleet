@@ -17,11 +17,11 @@ public class LoginStepDefs {
        // String
     }
 
-    @When("I login as store manager51")
-    public void i_login_as_store_manager51() {
-        System.out.println("Logging in as store manager");
-        String username = ConfigurationReader.getProperty("store_manager_username");
-        String password = ConfigurationReader.getProperty("store_manager_password");
+    @When("I login as driver")
+    public void i_login_as_driver() {
+        System.out.println("Logging in as driver");
+        String username = ConfigurationReader.getProperty("driver_username");
+        String password = ConfigurationReader.getProperty("driver_password");
         loginPage.login(username,password);
 
     }

@@ -2,13 +2,9 @@
 
 Feature: Login
   As I user, I should be able to login
-@wip
-  Scenario: Login as a store manager51
-    Given I am on the login page
-    When I login as store manager51
-    Then dashboard should be displayed
-
+  @LoginFunc
   Scenario: Login as a driver
     Given I am on the login page
-    When I login as a driver
+    When I login as driver
     Then dashboard should be displayed
+
